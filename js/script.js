@@ -1,4 +1,3 @@
-// js/script.js
 function calculateLuas() {
   var alas = parseFloat(document.getElementById('Alas').value);
   var tinggi = parseFloat(document.getElementById('Tinggi').value);
@@ -77,6 +76,5 @@ function showKelilingForm() {
   resetLuasForm();
 }
 
-// Adding event listeners for reset buttons
 document.getElementById('resetLuas').addEventListener('click', resetLuasForm);
 document.getElementById('resetKeliling').addEventListener('click', resetKelilingForm);
